@@ -3,6 +3,6 @@ import { getURL } from "../controllers/qrcodeController.js";
 
 const router = Router();
 
-router.get('/', getURL)
+router.post('/link', getURL)
 
 export default router
